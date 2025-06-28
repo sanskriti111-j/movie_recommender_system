@@ -3,6 +3,7 @@ This project is a Content-Based Movie Recommender System that suggests movies ba
 Built using feature extraction, data cleaning, and vectorization techniques, this system processes movie data and returns recommendations based on textual similarity. A simple user input (movie title) gives you a list of similar movies you may enjoy!
 
 **Features**
+
 Recommends movies based on a movie you liked.
 
 Uses NLP techniques like Stemming, Tokenization, and Vectorization.
@@ -17,6 +18,7 @@ Can be deployed or integrated into a movie streaming website or platform
 
 
 **How It Works**
+
 Data Cleaning: Removed unnecessary columns, null values, and duplicates.
 
 Feature Extraction:
@@ -50,20 +52,16 @@ Calculates similarity scores with all other movies.
 Returns the top N most similar movies.
 
 
-**Technologies Used**
+**Technologies Used:**
+
 Python
-
 Pandas
-
 Numpy
-
 Scikit-learn
-
 NLTK
-
 Streamlit 
 
 
  Streaming Website
-🖥️ You can try the system live here: https://movierecommendersystem-kq7pvjnnangxhnxxkkm6ml.streamlit.app/
+🖥 You can try the system live here: https://movierecommendersystem-kq7pvjnnangxhnxxkkm6ml.streamlit.app/
 
